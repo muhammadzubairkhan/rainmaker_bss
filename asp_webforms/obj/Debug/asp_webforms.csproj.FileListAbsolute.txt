@@ -1,0 +1,11 @@
+/Users/designistimac-1/Projects/asp_webforms/asp_webforms/bin/asp_webforms.dll
+/Users/designistimac-1/Projects/asp_webforms/asp_webforms/bin/asp_webforms.pdb
+/Users/designistimac-1/Projects/asp_webforms/asp_webforms/obj/Debug/asp_webforms.csproj.CoreCompileInputs.cache
+/Users/designistimac-1/Projects/asp_webforms/asp_webforms/obj/Debug/asp_webforms.dll
+/Users/designistimac-1/Projects/asp_webforms/asp_webforms/obj/Debug/asp_webforms.pdb
+D:\Designist Downloads\Projects\asp_webforms\asp_webforms\bin\asp_webforms.dll.config
+D:\Designist Downloads\Projects\asp_webforms\asp_webforms\bin\asp_webforms.dll
+D:\Designist Downloads\Projects\asp_webforms\asp_webforms\bin\asp_webforms.pdb
+D:\Designist Downloads\Projects\asp_webforms\asp_webforms\obj\Debug\asp_webforms.dll
+D:\Designist Downloads\Projects\asp_webforms\asp_webforms\obj\Debug\asp_webforms.pdb
+D:\Designist Downloads\Projects\asp_webforms\asp_webforms\obj\Debug\asp_webforms.csprojResolveAssemblyReference.cache

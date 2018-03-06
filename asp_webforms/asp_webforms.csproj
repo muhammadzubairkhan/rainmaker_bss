@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9F88FFB-939F-4B22-977A-073D88BC2DA1}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>asp_webforms</RootNamespace>
+    <AssemblyName>asp_webforms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cntcomplainhistory.ascx" />
+    <Content Include="cntcomplainnewhistory.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\call-make.png" />
+    <Content Include="Images\call-pause.png" />
+    <Content Include="Images\ok.png" />
+    <Content Include="InternationalComplain-ComplainForm.aspx" />
+    <Content Include="InternationalComplain-FollowUp.aspx" />
+    <Content Include="InternationalComplain-NewComplainData.aspx" />
+    <Content Include="InternationalComplain-NewHistory.aspx" />
+    <Content Include="InternationalComplain-ViewComplainData.aspx" />
+    <Content Include="InternationalComplainFormFromView.aspx" />
+    <Content Include="InternationalComplainHistory.aspx" />
+    <Content Include="InternationalComplainNew.aspx" />
+    <Content Include="InternationalComplainView.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\5.png" />
+    <Content Include="Images\SaveIcon.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\complain-icon.png" />
+    <Content Include="Images\default.png" />
+    <Content Include="Images\download.png" />
+    <Content Include="Images\home-icon.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logo_rainmaker.png" />
+    <Content Include="Images\nrf-icon.png" />
+    <Content Include="Images\pencil.png" />
+    <Content Include="Images\profile_logo.png" />
+    <Content Include="Images\rm_logo.png" />
+    <Content Include="Images\user.png" />
+    <Content Include="Images\MMIcons\Dc Circuit.png" />
+    <Content Include="Images\MMIcons\NRF.png" />
+    <Content Include="Images\MMIcons\Reports.png" />
+    <Content Include="Images\MMIcons\Sales.png" />
+    <Content Include="Images\MMIcons\Services provisioning.png" />
+    <Content Include="Images\MMIcons\bss-administration.png" />
+    <Content Include="Images\MMIcons\circuit-provisioning.png" />
+    <Content Include="Images\MMIcons\complain management.png" />
+    <Content Include="Images\MMIcons\cpm administration.png" />
+    <Content Include="Images\MMIcons\internation_complains.png" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\js\bootstrap.js" />
+    <Content Include="Scripts\js\bootstrap.min.js" />
+    <Content Include="Scripts\js\canvasjs.min.js" />
+    <Content Include="Scripts\js\index.js" />
+    <Content Include="Scripts\js\jquery.js" />
+    <Content Include="Scripts\js\plugins\flot\excanvas.min.js" />
+    <Content Include="Scripts\js\plugins\flot\flot-data.js" />
+    <Content Include="Scripts\js\plugins\flot\jquery.flot.js" />
+    <Content Include="Scripts\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="Scripts\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="Scripts\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="Scripts\js\plugins\morris\morris-data.js" />
+    <Content Include="Scripts\js\plugins\morris\morris.js" />
+    <Content Include="Scripts\js\plugins\morris\morris.min.js" />
+    <Content Include="Scripts\js\plugins\morris\raphael.min.js" />
+    <Content Include="Styles-old\Site.css" />
+    <Content Include="Styles-old\custom_theme.css" />
+    <Content Include="Styles-old\css\bootstrap-rtl.css" />
+    <Content Include="Styles-old\css\bootstrap-rtl.min.css" />
+    <Content Include="Styles-old\css\bootstrap.css" />
+    <Content Include="Styles-old\css\bootstrap.min.css" />
+    <Content Include="Styles-old\css\cover.css" />
+    <Content Include="Styles-old\css\dashboard.css" />
+    <Content Include="Styles-old\css\font-awesome.min.css" />
+    <Content Include="Styles-old\css\sb-admin-rtl.css" />
+    <Content Include="Styles-old\css\sb-admin.css" />
+    <Content Include="Styles-old\css\signin.css" />
+    <Content Include="Styles-old\css\plugins\morris.css" />
+    <Content Include="Styles-old\font-awesome\css\font-awesome.css" />
+    <Content Include="Styles-old\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Styles-old\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Styles-old\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Styles-old\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Styles-old\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Styles-old\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Styles-old\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Styles-old\font-awesome\less\core.less" />
+    <Content Include="Styles-old\font-awesome\less\fixed-width.less" />
+    <Content Include="Styles-old\font-awesome\less\font-awesome.less" />
+    <Content Include="Styles-old\font-awesome\less\icons.less" />
+    <Content Include="Styles-old\font-awesome\less\larger.less" />
+    <Content Include="Styles-old\font-awesome\less\list.less" />
+    <Content Include="Styles-old\font-awesome\less\mixins.less" />
+    <Content Include="Styles-old\font-awesome\less\path.less" />
+    <Content Include="Styles-old\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Styles-old\font-awesome\less\spinning.less" />
+    <Content Include="Styles-old\font-awesome\less\stacked.less" />
+    <Content Include="Styles-old\font-awesome\less\variables.less" />
+    <Content Include="Styles-old\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_core.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_icons.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_larger.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_list.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_mixins.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_path.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_spinning.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_stacked.scss" />
+    <Content Include="Styles-old\font-awesome\scss\_variables.scss" />
+    <Content Include="Styles-old\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Styles-old\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Styles-old\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles-old\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Styles-old\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ComplainForm.aspx" />
+    <Content Include="ComplainManager.aspx" />
+    <Content Include="cntviewcomphist.ascx" />
+    <Content Include="cntviewfiberhist.ascx" />
+    <Content Include="InternationComplainFormM.aspx" />
+    <Content Include="InternationalComplainFollowUpM.aspx" />
+    <Content Include="InternationalComplainNewComplainM.aspx" />
+    <Content Include="InternationalComplainViewM.aspx" />
+    <Content Include="InternationalComplainViewComplainForm.aspx" />
+    <Content Include="InternationalComplainNewM.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cntcomplainhistory.ascx.cs">
+      <DependentUpon>cntcomplainhistory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cntcomplainhistory.ascx.designer.cs">
+      <DependentUpon>cntcomplainhistory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cntcomplainnewhistory.ascx.cs">
+      <DependentUpon>cntcomplainnewhistory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cntcomplainnewhistory.ascx.designer.cs">
+      <DependentUpon>cntcomplainnewhistory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplain-ComplainForm.aspx.cs">
+      <DependentUpon>InternationalComplain-ComplainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplain-ComplainForm.aspx.designer.cs">
+      <DependentUpon>InternationalComplain-ComplainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplain-FollowUp.aspx.cs">
+      <DependentUpon>InternationalComplain-FollowUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplain-FollowUp.aspx.designer.cs">
+      <DependentUpon>InternationalComplain-FollowUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplain-NewComplainData.aspx.cs">
+      <DependentUpon>InternationalComplain-NewComplainData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplain-NewComplainData.aspx.designer.cs">
+      <DependentUpon>InternationalComplain-NewComplainData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplain-NewHistory.aspx.cs">
+      <DependentUpon>InternationalComplain-NewHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplain-NewHistory.aspx.designer.cs">
+      <DependentUpon>InternationalComplain-NewHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplain-ViewComplainData.aspx.cs">
+      <DependentUpon>InternationalComplain-ViewComplainData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplain-ViewComplainData.aspx.designer.cs">
+      <DependentUpon>InternationalComplain-ViewComplainData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainFormFromView.aspx.cs">
+      <DependentUpon>InternationalComplainFormFromView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainFormFromView.aspx.designer.cs">
+      <DependentUpon>InternationalComplainFormFromView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainHistory.aspx.cs">
+      <DependentUpon>InternationalComplainHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainHistory.aspx.designer.cs">
+      <DependentUpon>InternationalComplainHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainNew.aspx.cs">
+      <DependentUpon>InternationalComplainNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainNew.aspx.designer.cs">
+      <DependentUpon>InternationalComplainNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainView.aspx.cs">
+      <DependentUpon>InternationalComplainView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainView.aspx.designer.cs">
+      <DependentUpon>InternationalComplainView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="InternationComplainFormM.aspx.cs">
+      <DependentUpon>InternationComplainFormM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationComplainFormM.aspx.designer.cs">
+      <DependentUpon>InternationComplainFormM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainFollowUpM.aspx.cs">
+      <DependentUpon>InternationalComplainFollowUpM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainFollowUpM.aspx.designer.cs">
+      <DependentUpon>InternationalComplainFollowUpM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainNewComplainM.aspx.cs">
+      <DependentUpon>InternationalComplainNewComplainM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainNewComplainM.aspx.designer.cs">
+      <DependentUpon>InternationalComplainNewComplainM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainViewM.aspx.cs">
+      <DependentUpon>InternationalComplainViewM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainViewM.aspx.designer.cs">
+      <DependentUpon>InternationalComplainViewM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainViewComplainForm.aspx.cs">
+      <DependentUpon>InternationalComplainViewComplainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainViewComplainForm.aspx.designer.cs">
+      <DependentUpon>InternationalComplainViewComplainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalComplainNewM.aspx.cs">
+      <DependentUpon>InternationalComplainNewM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalComplainNewM.aspx.designer.cs">
+      <DependentUpon>InternationalComplainNewM.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master.Master" />
+    <None Include="Styles-old\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+    <VisualStudio>
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58649/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+</Project>

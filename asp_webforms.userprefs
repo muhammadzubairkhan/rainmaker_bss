@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{A9F88FFB-939F-4B22-977A-073D88BC2DA1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="asp_webforms/Default.aspx">
+    <Files>
+      <File FileName="asp_webforms/Default.aspx" Line="284" Column="52" />
+      <File FileName="asp_webforms/ComplainForm.aspx" Line="1126" Column="34" />
+      <File FileName="asp_webforms/ComplainManager.aspx" Line="49" Column="22" />
+      <File FileName="asp_webforms/MasterFile.aspx" Line="462" Column="16" />
+      <File FileName="asp_webforms/cntviewcomphist.ascx" Line="20" Column="33" />
+      <File FileName="asp_webforms/cntviewfiberhist.ascx" Line="51" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.asp__webforms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
